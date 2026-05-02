@@ -255,4 +255,5 @@ getgenv().taurus.configs  = Configs
 getgenv().taurus.assets   = Assets
 getgenv().taurus.modules  = Modules
 
+Assets:Fetch("TaurusLogo.png", "https://raw.githubusercontent.com/division4/taurus-universal/refs/heads/main/assets/TaurusLogo.png")
 Modules:LoadAll()
