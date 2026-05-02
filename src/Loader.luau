@@ -1,1 +1,8 @@
-print("hi this is a test to see if the loader works")
+getgenv().taurus = {
+    version = "0.1a",
+    loaded = false,
+    modules = {},
+    config = {},
+    configs = {},
+}
+
